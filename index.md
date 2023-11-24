@@ -8,4 +8,8 @@ layout: page
 
 # Hello! I'm Manas.
 
-I have done my Bachelor's (BTech) in Instrumentation and Control Engineering from COEP Technological University (formerly College of Engineering, Pune). My areas of interest lie in Embedded Systems, Custom Silicon Design and Robotics. 
+I love building products and collaborate on product development. I believe that the true measure of any sophisticated product lies in its ability to generate value. This perspective has guided my approach in every project I've undertaken, emphasizing not just technical complexity but also real-world impact.
+
+I have completed my Bachelor's (BTech) in Instrumentation and Control Engineering from COEP Technological University (formerly College of Engineering, Pune). 
+
+My areas of interest lie in Embedded Systems, Custom Silicon Design and Field Robotics.
