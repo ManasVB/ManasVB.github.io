@@ -21,6 +21,14 @@ Currently this project is being developed on local git. The remote repo right no
 
 * Raas-EDT is an Automated Diagnostic Tool for Ethernet-based Automotive ECUs confirming the ISO 14229
 standard. (Unified Diagnostics Services - UDS protocol)
+* Based on the `Robotics as a service - (RaaS)` business model.
+
+**Usage**:
+
+* Any ECU that supports Ethernet and is ISO14229 UDS protocol compliant can use this tool.
+* Simplified diagnostic command input for ECU vendors via plain text, with subsequent parsing and transmission to
+the ECU, while generating ASC logs and HTML reports from the responses.
+* Basically, it is simple and easy to use with an excellent response time.
 
 **Design**:
 <img src="/img/Raas_EDT_1.png" width="100%" alt="Raas-EDT-Framework" align="center">
@@ -79,6 +87,10 @@ standard. (Unified Diagnostics Services - UDS protocol)
 
 * Logger is a seperate entity and is optional for use. To get the logs in `.asc` format, run the `Logger.py` in a seperate terminal and simultaneouly send the diagnostics request. To end the logger just kill the process with `Ctrl+C`.
 * Logs will be saved in `Logs` folder with current timestamp and in `.asc` format.
+
+**Demo**:
+
+* 
 
 -----------------------------------------------------------------------------------------------------------
 <a name="MPPT"></a>
