@@ -1,6 +1,7 @@
 ---
 title: Projects
 layout: page
+driveId: 1SRCKPwjgtzRFAL0yCWOH3ZNx1JVH_9Ra/preview
 ---
 
 <a name="TSoC"></a>
@@ -90,7 +91,64 @@ the ECU, while generating ASC logs and HTML reports from the responses.
 
 **Demo**:
 
-* 
+* We will create a `Testing.edt` file with the following diagnostic requests.
+    ```
+    Default Session
+    DELAY(2)
+    Extended Diagnostic Session
+    DELAY(2)
+    Default Session
+    Extended Diagnostic Session
+    TP(start, 0EF4EFFE, 2)
+    DELAY(5)
+    SecurityAccesslvl0x1
+    SecurityAccesslvl0x2
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x3
+    SecurityAccesslvl0x4
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x5
+    SecurityAccesslvl0x6
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x7
+    SecurityAccesslvl0x8
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x9
+    SecurityAccesslvl0xa
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0xb
+    SecurityAccesslvl0xc
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0xd
+    SecurityAccesslvl0xe
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x11
+    SecurityAccesslvl0x12
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x13
+    SecurityAccesslvl0x14
+    Default Session
+    Extended Diagnostic Session
+    SecurityAccesslvl0x15
+    SecurityAccesslvl0x16
+    ```
+* Please refer the below video for a simple demo
+
+{% include googleDrivePlayer.html id=page.driveId %} 
+
+&nbsp;
+
+* As it can be seen, firstly we start the logger from a different terminal before running the Raas-EDT.
+* Next we run the `Testing.edt` file and as you can see how simply the commands written as above, get sent to the ECU and the ECU responds to those requests.
+* After that a HTML report is generated that shows which requests got positive response showing them as `Pass` and others as `Fail`, while the ethernet log files get saved as `.asc` logs.
 
 -----------------------------------------------------------------------------------------------------------
 <a name="MPPT"></a>
