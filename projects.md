@@ -63,7 +63,7 @@ the ECU, while generating ASC logs and HTML reports from the responses.
 
 * Using `.edt` file:
     - Create a text file with .edt extension. Let's say I create a file to check whether the ECU is in Application mode or Boot mode and name it `AppOrBoot.edt`.
-    - Now add commands to the file as shown in below image.
+    - Now add commands to the file as shown in image.
     <img src="/img/AppOrBoot.png" width="40%" alt="App Or Boot ECU" align="center">
 
     - `python3 app_main.py --edt AppOrBoot.edt`

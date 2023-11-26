@@ -12,4 +12,4 @@ I love building products and collaborate on product development. I believe that 
 
 I have completed my Bachelor's (BTech) in Instrumentation and Control Engineering from COEP Technological University (formerly College of Engineering, Pune). 
 
-My areas of interest lie in Embedded Systems, Custom Silicon Design and Field Robotics.
+My areas of interest lie in Embedded Systems, System-on-Chip(SoC) Design and Field Robotics.
