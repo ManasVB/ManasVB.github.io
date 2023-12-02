@@ -8,8 +8,8 @@ layout: page
 
 # Hello! I'm Manas.
 
-I love building products and collaborate on product development. I believe that the true measure of any sophisticated product lies in its ability to generate value. This perspective has guided my approach in every project I've undertaken, emphasizing not just technical complexity but also real-world impact.
+I love building products and collaborate on product development. I believe that the true measure of any product lies in its ability to generate value. This perspective has guided my approach in every project I've undertaken, emphasizing not just technical complexity but also real-world impact.
 
-I have completed my Bachelor's (BTech) in Instrumentation and Control Engineering from COEP Technological University (formerly College of Engineering, Pune). 
+I have completed my Bachelor's (BTech) in Instrumentation and Control Engineering from COEP Technological University (formerly College of Engineering, Pune), with a Minor degree in Computer Engineering.
 
-My areas of interest lie in Embedded Systems, System-on-Chip(SoC) Design and Field Robotics.
+My areas of interest lie in Embedded Systems, Custom Silicon and System-on-Chip(SoC) Design, and Field Robotics.
