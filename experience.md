@@ -5,7 +5,7 @@ layout: page
 
 <a name="Tapas"></a>
 ## Tapas Services
-[Generalist Engineer] [June 2021 - Present]
+*[Generalist Engineer] [June 2021 - Present]*
 
 ### Description
 
@@ -49,8 +49,63 @@ Generalist Engineer with expertise in embedded software, application development
     * Real Time Operating Systems (RTOS, FreeRTOS)
     * Arm Cortex-M
     * Arm7TDMI-S
-    *  
+    * UART, RS232, RS485
+    * Build with Make for LPC55s69
+
+- **North American Automotive LiDAR Manufacturer** \\
+    *[Software Engineer] [June 2021 - Nov 2022]*
+
+    <u>Key Roles</u>:
+    * Critical Functional Safety (FuSa) implementation within the automotive LiDAR ECU in the event of any unrecoverable or recoverable errors.
+    * Designed a fault-injection testing framework so as to introduce these errors into the ECU to make sure that FuSa measures work correctly.
+    * Contributed to the development of LiDAR Software Development Kit (SDK) and created a self-diagnostics testing infrastructure required for software Quality Control (QC).
+    * Implemented DevOps practices, integrating automated tools into Jenkins and CI processes, with a focus on preventing manual code intervention within automated workflows.
 
 
+    <u>Tasks</u>:
 
+    * FuSa Implementation for Unrecoverable and Recoverable errors:
+        - Watchdog Timeout, Ethernet-Phy Communication fault, CPU malfunction, Power Management Integrated Circuit (PMIC) reset, Monitor System Clock, Co-processor bootup failure, LiDAR Point Rationality Check, RGMII Rx error due to CRC failure, Double read and read after write for MDIO, Runtime PMIC watchdog error bit check,  and many more.
+        - Raise Diagnostic Trouble Code (DTC) when these errors occur.
+    * Fault-Injection Framework:
+        - Backdoor entry testing framework.
+    * Self diagnostic tests Infrastructure for QC:
+        - LiDAR Temperature, GAP, Subfield Overlap, Wall Sanity, FOV, Laser Sanity, Return Mode checks
+        - Software QC for automotive ECU, Resolve MISRA errors & code coverage with GCov.
+    * Application development for LiDAR viewer application.
+    * Software development and testing of LiDAR SDK.
 
+    <u>Skills</u>:
+    * Firmware Development
+    * Low Level Device Drivers
+    * Infineon Tricore
+    * Automotive Ethernet
+    * AUTOSAR
+    * In-Circuit Debugging (JTAG debuggers - Lauterbach)
+    * Build with Make, Cmake for Infineon Aurix
+    * ISO14229 Automotive Diagnostic, ISO26262
+
+----------------------------------------------------------------------------------------------------------
+
+<a name="AutoIntell"></a>
+## AutoIntell Services
+*[Embedded and Automation Intern] [Apr. 2020 - Aug. 2020]*
+
+### Description
+
+Developed a LabVIEW-based Firmata Protocol library, allowing industry professionals to manage diverse MCUs without delving into their intricacies while abstracting MCU complexities and providing easy access to all peripherals and communication protocols.
+
+<u>Tasks</u>:
+
+* Design, Development and Implementation of Firmata Protocol library in LabVIEW, for interfacing microcontrollers that support Firmata.
+* I2C, SPI and USB-SMBus library development in LabVIEW, that helps in increased efficiency and accuracy in data collection and analysis.
+
+----------------------------------------------------------------------------------------------------------
+
+<a name="Embedded"></a>
+## Embedded Lab, COEP Technological University
+*[Summer Research Intern] [May 2019 - July 2019]*
+
+Research in collaboration with University of Washington, Seattle.
+* Implementation and performance evaluation of the Wu-White ODE/DAE model using STM32L476RC.
+* Modeling and Simulation of Battery Management Systems and conducting State-of-Charge estimation.
