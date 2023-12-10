@@ -14,7 +14,7 @@ Currently this project is being developed on local git. The remote repo right no
 
 ----------------------------------------------------------------------------------------------------------
 <a name="Raas-EDT"></a>
-### Raas-EDT (Robotics as a Service, ECU Diagnostics Tool)
+### RaaS-EDT (Robotics as a Service, ECU Diagnostics Tool)
 [Tapas Services Proprietary In-House Project]\\
 [Oct 2022 - Apr 2023]
 
@@ -22,7 +22,7 @@ Currently this project is being developed on local git. The remote repo right no
 
 * Raas-EDT is an Automated Diagnostic Tool for Ethernet-based Automotive ECUs confirming the ISO 14229
 standard. (Unified Diagnostics Services - UDS protocol)
-* Based on the `Robotics as a service - (RaaS)` business model.
+* Based on the `Robotics as a Service - (RaaS)` business model.
 
 **Usage**:
 
